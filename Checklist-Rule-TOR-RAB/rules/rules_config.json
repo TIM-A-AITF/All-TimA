@@ -1,0 +1,448 @@
+{
+  "screening_satu_format_dan_substansi": [
+    {
+      "section_code": "I",
+      "section_title": "APAKAH TOR SESUAI DENGAN FORMAT? (KELENGKAPAN)",
+      "items": [
+        {
+          "item_code": "I.A",
+          "pertanyaan": "Apakah di dalam TOR terdapat informasi Kementerian/Lembaga?",
+          "kriteria_kode": "I.A.1",
+          "kriteria_lolos": "Terdapat informasi Kementerian/Lembaga dalam hal ini harus tertulis Kementerian Komunikasi dan Digital",
+          "sumber_regulasi": "PMK 41/2026",
+          "feedback_revisi": "Tambahkan informasi Kementerian/Lembaga yaitu Kementerian Komunikasi dan Digital"
+        },
+        {
+          "item_code": "I.B",
+          "pertanyaan": "Apakah di dalam TOR terdapat informasi Unit Eselon I/II?",
+          "kriteria_kode": "I.B.1",
+          "kriteria_lolos": "Terdapat informasi Unit Eselon I/II sebagai penanggung jawab Kegiatan yang berada di bawah Kementerian Komunikasi dan Digital",
+          "sumber_regulasi": "PMK 41/2026",
+          "feedback_revisi": "Tambahkan informasi Unit Eselon I/II sebagai penanggung jawab Kegiatan"
+        },
+        {
+          "item_code": "I.C",
+          "pertanyaan": "Apakah di dalam TOR terdapat informasi Program?",
+          "kriteria_kode": "I.C.1",
+          "kriteria_lolos": "Terdapat informasi Program yang merupakan penjabaran kebijakan Kementerian/Lembaga di bidang tertentu yang dilaksanakan dalam bentuk upaya yang berisi satu atau beberapa Kegiatan dengan menggunakan sumber daya yang disediakan untuk mencapai hasil yang terukur sesuai dengan misinya",
+          "sumber_regulasi": "PMK 41/2026",
+          "feedback_revisi": "Tambahkan informasi Program yang merupakan penjabaran kebijakan beserta rencana penerapannya yang dimiliki Kementerian/Lembaga untuk mengatasi suatu masalah strategis dalam mencapai hasil (outcome) tertentu sesuai dengan tugas dan fungsi Kementerian/Lembaga dan fungsi BUN dimaksud serta visi dan misi Presiden"
+        },
+        {
+          "item_code": "I.D",
+          "pertanyaan": "Apakah di dalam TOR terdapat informasi Sasaran Program?",
+          "kriteria_kode": "I.D.1",
+          "kriteria_lolos": "Terdapat informasi Sasaran Program yang mencerminkan hasil kinerja Program yang ingin dicapai secara nasional. Sasaran Program umumnya menggunakan pilihan kata seperti “terwujudnya”, “terjaganya”, “meningkatnya”, “terciptanya”, dan sebagainya",
+          "sumber_regulasi": "PMK 41/2026",
+          "feedback_revisi": "Tambahkan informasi Sasaran Program yang merupakan hasil kinerja program yang ingin dicapai. Umumnya menggunakan pilihan kata kerja pasif seperti “terwujudnya”, “terjaganya”, “meningkatnya”, “terciptanya”, dan sebagainya."
+        },
+        {
+          "item_code": "I.E",
+          "pertanyaan": "Apakah di dalam TOR terdapat informasi Indikator Kinerja Program?",
+          "kriteria_kode": "I.E.1",
+          "kriteria_lolos": "Terdapat informasi Indikator Kinerja Program yang merupakan alat ukur untuk menilai capaian kinerja Program. Indikator Kinerja Program disusun dengan nomenklatur yang mencerminkan capaian Sasaran Program dan rumusannya dapat bersifat kualitatif/kuantitatif. Indikator Kinerja Program umumnya menggunakan pilihan kata awal seperti “jumlah”, “persentase”, “nilai”, “angka”, “prevalensi”, “luas” , “volume”, dan sebagainya",
+          "sumber_regulasi": "PMK 41/2026",
+          "feedback_revisi": "Tambahkan informasi Indikator Kinerja Program untuk mengukur untuk capaian kinerja program. Umumnya menggunakan pilihan kata “jumlah”, “persentase”, “nilai”, “angka”, “prevalensi”, “luas”, “volume”, dan sebagainya."
+        },
+        {
+          "item_code": "I.F",
+          "pertanyaan": "Apakah di dalam TOR terdapat informasi Kegiatan?",
+          "kriteria_kode": "I.F.1",
+          "kriteria_lolos": "Terdapat informasi Kegiatan yang merupakan nomenklatur yang menggambarkan aktivitas yang dilakukan oleh Unit Eselon II yang bersangkutan untuk menunjang Program yang telah ditentukan. Kegiatan merupakan bagian dari Program yang terdiri atas sekumpulan tindakan pengerahan sumber daya baik yang berupa personil (sumber daya manusia), barang modal termasuk peralatan dan teknologi, dana, dan/atau kombinasi dari beberapa atau semua jenis sumber daya tersebut sebagai Masukan (input) untuk menghasilkan Keluaran (output) dalam bentuk barang/jasa",
+          "sumber_regulasi": "PMK 41/2026",
+          "feedback_revisi": "Tambahkan informasi Kegiatan yang berupa aktivitas untuk menunjang program yang ditentukan. Kegiatan dapat dilaksanakan oleh beberapa unit eselon II dan/atau Satker dalam satu eselon I yang sama. Sebagai contoh yakni “Pengembangan Jaringan Irigasi Permukaan, Rawa, dan Non-Padi”"
+        },
+        {
+          "item_code": "I.G",
+          "pertanyaan": "Apakah di dalam TOR terdapat informasi Sasaran Kegiatan?",
+          "kriteria_kode": "I.G.1",
+          "kriteria_lolos": "Terdapat informasi Sasaran Kegiatan yang mencerminkan capaian yang terkait dengan sasaran Rencana Kerja Pemerintah (RKP) serta tugas dan fungsi Kementerian Komunikasi dan Digital. Sasaran Kegiatan disusun dengan nomenklatur yang mencerminkan capaian Sasaran Program dari Unit Eselon I. Sasaran Kegiatan umumnya menggunakan pilihan kata seperti “terwujudnya”, “terjaganya”, “meningkatnya”, “terciptanya”, dan sebagainya",
+          "sumber_regulasi": "PMK 41/2026",
+          "feedback_revisi": "Tambahkan informasi Sasaran Kegiatan yang merupakan hasil kinerja kegiatan yang ingin dicapai. Umumnya menggunakan pilihan kata kerja pasif seperti “terwujudnya”, “terjaganya”, “meningkatnya”, “terciptanya”, dan sebagainya. Sebagai contoh yakni \"Meningkatnya layanan jaringan irigasi\""
+        },
+        {
+          "item_code": "I.H",
+          "pertanyaan": "Apakah di dalam TOR terdapat informasi Indikator Kinerja Kegiatan?",
+          "kriteria_kode": "I.H.1",
+          "kriteria_lolos": "Terdapat informasi Indikator Kinerja Kegiatan yang merupakan alat ukur untuk menilai capaian Kinerja Kegiatan dan rumusannya dapat bersifat kualitatif/kuantitatif. Nomenklatur Indikator Kinerja Kegiatan harus mencerminkan capaian Sasaran Kegiatan",
+          "sumber_regulasi": "PMK 41/2026",
+          "feedback_revisi": "Tambahkan informasi Indikator Kinerja Kegiatan untuk mengukur capaian kinerja kegiatan. Indikator Kinerja Kegiatan\n dilaksanakan oleh unit kerja eselon II serta merumuskan dasar ukuran target antara lain: “% (persen), orang, Kilometer (km)”"
+        },
+        {
+          "item_code": "I.I",
+          "pertanyaan": "Apakah di dalam TOR terdapat informasi Klasifikasi Rincian Output?",
+          "kriteria_kode": "I.I.1",
+          "kriteria_lolos": "Terdapat informasi Klasifikasi Rincian Output yang merupakan kumpulan atas Rincian Output yang disusun dengan mengelompokkan atau mengklasifikasikan muatan Keluaran (output) Kegiatan yang sejenis/serumpun berdasarkan sektor/bidang/jenis tertentu secara sistematis",
+          "sumber_regulasi": "PMK 41/2026 dan list pada SEB No. 6/2025 dan 3/MK/AG/2025",
+          "feedback_revisi": "Tambahkan informasi Klasifikasi Rincian Output yang dipilih sesuai dengan dokumen KRO pada SEB No. 6/2025 dan 3/MK/AG/2025"
+        },
+        {
+          "item_code": "I.J",
+          "pertanyaan": "Apakah di dalam TOR terdapat informasi Rincian Output?",
+          "kriteria_kode": "I.J.1",
+          "kriteria_lolos": "Terdapat informasi Rincian Output berupa barang atau jasa riil yang merupakan hasil akhir dari pelaksanaan Kegiatan dalam mendukung pencapaian sasaran pembangunan nasional yang dihasilkan oleh Unit Eselon II Kementerian/Lembaga yang berfokus pada isu tertentu serta berkaitan langsung dengan tugas dan fungsi Unit Eselon II tersebut dalam mendukung pencapaian Sasaran Kegiatan yang telah ditetapkan",
+          "sumber_regulasi": "PMK 41/2026",
+          "feedback_revisi": "Tambahkan informasi Rincian Output yang berupa barang atau jasa riil yang merupakan hasil akhir dari pelaksanaan Kegiatan dalam mendukung pencapaian sasaran pembangunan nasional yang dihasilkan oleh Unit Eselon II yang berfokus pada isu tertentu serta berkaitan langsung dengan tugas dan fungsi Unit Eselon II tersebut dalam mendukung pencapaian Sasaran Kegiatan yang telah ditetapkan"
+        },
+        {
+          "item_code": "I.K",
+          "pertanyaan": "Apakah di dalam TOR terdapat informasi Volume Rincian Output?",
+          "kriteria_kode": "I.K.1",
+          "kriteria_lolos": "Terdapat informasi Volume Rincian Output yang merupakan jumlah/banyaknya kuantitas Rincian Output",
+          "sumber_regulasi": "PMK 41/2026",
+          "feedback_revisi": "Tambahkan informasi jumlah/banyaknya kuantitas Rincian Output yang merupakan jumlah/banyaknya kuantitas Rincian Output"
+        },
+        {
+          "item_code": "I.L",
+          "pertanyaan": "Apakah di dalam TOR terdapat informasi Satuan Rincian Output?",
+          "kriteria_kode": "I.L.1",
+          "kriteria_lolos": "Terdapat informasi Satuan Rincian Output yang merupakan satuan ukur yang digunakan dalam rangka pengukuran kuantitas Rincian Output sesuai dengan karakteristiknya",
+          "sumber_regulasi": "PMK 41/2026",
+          "feedback_revisi": "Tambahkan informasi satuan ukur yang digunakan dalam rangka pengukuran kuantitas Rincian Output sesuai dengan karakteristiknya"
+        },
+        {
+          "item_code": "I.M",
+          "pertanyaan": "Apakah di dalam TOR terdapat informasi Latar Belakang?",
+          "kriteria_kode": "I.M.1",
+          "kriteria_lolos": "Terdapat informasi Latar Belakang yang di dalamnya terdapat informasi Dasar Hukum dan Gambaran Umum",
+          "sumber_regulasi": "PMK 41/2026",
+          "feedback_revisi": "Tambahkan informasi Latar Belakang yang di dalamnya terdapat informasi Dasar Hukum dan Gambaran Umum"
+        },
+        {
+          "item_code": null,
+          "pertanyaan": "Apakah di dalam Latar Belakang terdapat informasi Dasar Hukum?",
+          "kriteria_kode": "I.M.2",
+          "kriteria_lolos": "Terdapat informasi Dasar Hukum tugas fungsi dan/atau ketentuan yang terkait langsung dengan Rincian Output yang akan dilaksanakan",
+          "sumber_regulasi": "PMK 41/2026",
+          "feedback_revisi": "Tambahkan informasi Dasar Hukum tugas fungsi dan/atau ketentuan yang terkait langsung dengan Rincian Output yang akan dilaksanakan"
+        },
+        {
+          "item_code": null,
+          "pertanyaan": "Apakah di dalam Latar Belakang terdapat informasi Gambaran Umum?",
+          "kriteria_kode": "I.M.3",
+          "kriteria_lolos": "Terdapat informasi Gambaran Umum mengenai Rincian Output dan Volumenya. Khusus Rincian Output yang mendukung Pengarusutamaan Gender dan memuat Anggaran Responsif Gender, dapat ditambahkan informasi yang memuat :\n (a) Konteks/analisis situasi ketimpangan gender dari Rincian Output yang diusulkan\n (b) Penjelasan mengenai intervensi/Rincian Output/Bagian Rincian Output yang akan dilakukan oleh K/L atau Unit Eselon II untuk mengatasi situasi ketimpangan gender \n (c) Hasil Rincian Output yang diharapkan",
+          "sumber_regulasi": "PMK 41/2026",
+          "feedback_revisi": "Tambahkan informasi Gambaran Umum mengenai Rincian Output dan Volumenya. Khusus Rincian Output yang mendukung Pengarusutamaan Gender dan memuat Anggaran Responsif Gender, dapat ditambahkan informasi yang memuat :\n (a) Konteks/analisis situasi ketimpangan gender dari Rincian Output yang diusulkan\n (b) Penjelasan mengenai intervensi/Rincian Output/Bagian Rincian Output yang akan dilakukan oleh K/L atau Unit Eselon II untuk mengatasi situasi ketimpangan gender \n (c) Hasil Rincian Output yang diharapkan"
+        },
+        {
+          "item_code": "I.N",
+          "pertanyaan": "Apakah di dalam TOR terdapat informasi Penerima Manfaat?",
+          "kriteria_kode": "I.N.1",
+          "kriteria_lolos": "Terdapat informasi Penerima Manfaat baik internal dan/atau eksternal K/L. Khusus Rincian Output yang mendukung Pengarusutamaan Gender dan memuat Anggaran Responsif Gender, tambahkan informasi mengenai data terpilah berdasarkan jenis kelamin/daerah/kelompok umur",
+          "sumber_regulasi": "PMK 41/2026",
+          "feedback_revisi": "Tambahkan informasi penerima manfaat baik internal dan/atau eksternal K/L. Khusus Rincian Output yang mendukung Pengarusutamaan Gender dan memuat Anggaran Responsif Gender, tambahkan informasi mengenai data terpilah berdasarkan jenis kelamin/daerah/kelompok umur"
+        },
+        {
+          "item_code": "I.O",
+          "pertanyaan": "Apakah di dalam TOR terdapat informasi Strategi Pencapaian Keluaran?",
+          "kriteria_kode": "I.O.1",
+          "kriteria_lolos": "Terdapat informasi Strategi Pencapaian Keluaran yang di dalamnya terdapat informasi Metode Pelaksanaan, Tahapan dan Waktu Pelaksanaan",
+          "sumber_regulasi": "PMK 41/2026",
+          "feedback_revisi": "Tambahkan informasi Strategi Pencapaian Keluaran yang di dalamnya terdapat informasi Metode Pelaksanaan, Tahapan dan Waktu Pelaksanaan"
+        },
+        {
+          "item_code": null,
+          "pertanyaan": "Apakah di dalam Strategi Pencapaian Keluaran terdapat informasi Metode Pelaksanaan?",
+          "kriteria_kode": "I.O.2",
+          "kriteria_lolos": "Terdapat informasi Metode Pelaksanaan yang memuat cara pelaksanaannya berupa kontraktual atau swakelola",
+          "sumber_regulasi": "PMK 41/2026",
+          "feedback_revisi": "Tambahkan informasi cara pelaksanannya berupa kontrakual atau swakelola"
+        },
+        {
+          "item_code": null,
+          "pertanyaan": "Apakah di dalam Strategi Pencapaian Keluaran terdapat informasi Tahapan dan Waktu Pelaksanaan?",
+          "kriteria_kode": "I.O.3",
+          "kriteria_lolos": "Terdapat informasi Tahapan dan Waktu Pelaksanaan yang digunakan dalam pencapaian Rincian Output. Khusus Rincian Output yang mendukung Pengarusutamaan Gender dan memuat Anggaran Responsif Gender, ditambahkan informasi yang berisi penjelasan mengenai rencana aksi yang akan digunakan untuk mengatasi situasi ketimpangan gender",
+          "sumber_regulasi": "PMK 41/2026",
+          "feedback_revisi": "Tambahkan informasi tahapan yang digunakan dalam pencapaian Rincian Output. Khusus Rincian Output yang mendukung Pengarusutamaan Gender dan memuat Anggaran Responsif Gender, ditambahkan informasi yang berisi penjelasan mengenai rencana aksi yang akan digunakan untuk mengatasi situasi ketimpangan gender"
+        },
+        {
+          "item_code": "I.P",
+          "pertanyaan": "Apakah di dalam TOR terdapat informasi Kurun Waktu Pencapaian Keluaran?",
+          "kriteria_kode": "I.P.1",
+          "kriteria_lolos": "Terdapat informasi Kurun Waktu Pencapaian Keluaran yang memuat Kurun Waktu dalam Pencapaian Keluaran",
+          "sumber_regulasi": "PMK 41/2026",
+          "feedback_revisi": "Tambahkan informasi kurun waktu pelaksanaan pencapaian Keluaran"
+        },
+        {
+          "item_code": "I.Q",
+          "pertanyaan": "Apakah di dalam TOR terdapat informasi Biaya yang Diperlukan?",
+          "kriteria_kode": "I.Q.1",
+          "kriteria_lolos": "Terdapat informasi Biaya yang Diperlukan untuk pencapaian Keluaran dan terdapat penjelasan bahwa rincian biaya sesuai dengan RAB terlampir",
+          "sumber_regulasi": "PMK 41/2026",
+          "feedback_revisi": "Tambahkan informasi total anggaran yang dibutuhkan untuk pencapaian Keluaran dan penjelasan bahwa rincian biaya sesuai dengan RAB terlampir"
+        },
+        {
+          "item_code": "I.R",
+          "pertanyaan": "Apakah di dalam TOR terdapat informasi Manajemen Risiko?",
+          "kriteria_kode": "I.R.1",
+          "kriteria_lolos": "Terdapat informasi Manajemen Risiko",
+          "sumber_regulasi": "Kepmen",
+          "feedback_revisi": "Tambahkan informasi Manajemen Risiko"
+        },
+        {
+          "item_code": "I.S",
+          "pertanyaan": "Apakah di dalam TOR terdapat informasi Penanggung Jawab yang disertai dengan Tanda Tangan?",
+          "kriteria_kode": "I.S.1",
+          "kriteria_lolos": "Terdapat informasi nama penanggung jawab Kegiatan yang disertai Tanda Tangan",
+          "sumber_regulasi": "PMK 41/2026",
+          "feedback_revisi": "Tambahkan informasi nama penanggung jawab Kegiatan yang disertai Tanda Tangan"
+        },
+        {
+          "item_code": "I.T",
+          "pertanyaan": "Apakah di dalam TOR terdapat informasi NIP?",
+          "kriteria_kode": "I.T.1",
+          "kriteria_lolos": "Terdapat informasi Nomor Induk Pegawai (NIP) penanggung jawab Kegiatan",
+          "sumber_regulasi": "PMK 41/2026",
+          "feedback_revisi": "Tambahkan informasi Nomor Induk Pegawai (NIP) penanggung jawab Kegiatan"
+        },
+        {
+          "item_code": "APAKAH PROGRAM BERKUALITAS?",
+          "pertanyaan": null,
+          "kriteria_kode": "Dikatakan berkualitas jika program dapat menjelaskan kelayakan program secara substantif menggunakan pendekatan di bawah ini. Kriteria LOLOS jika pertanyaan di bawah ini terjawab secara ekspilist serta ketentuan output dan isu yang diselesaikan jelas dan dapat diverifikasi",
+          "kriteria_lolos": null,
+          "sumber_regulasi": null,
+          "feedback_revisi": null
+        },
+        {
+          "item_code": "II.A",
+          "pertanyaan": "Apakah selaras dengan PN/RPJMN/RKP/PKPN/Renstra/Direktif Presiden/Direktif Menteri?",
+          "kriteria_kode": "II.A.1",
+          "kriteria_lolos": "Terdapat keterkaitan dengan PN/RPJMN/RKP/PKPN/Renstra/Direktif Presiden/Direktif Menteri?",
+          "sumber_regulasi": "Draf Kepmen",
+          "feedback_revisi": "Tambahkan informasi keterkaitan dengan PN/RPJMN/RKP/PKPN/Renstra/Direktif Presiden/Direktif Menteri?"
+        },
+        {
+          "item_code": "II.B",
+          "pertanyaan": "Apakah sesuai dengan kerangka logis?",
+          "kriteria_kode": "II.B.1",
+          "kriteria_lolos": "Terdapat Output dan Sasaran Kegiatan yang memiliki keterkaitan logis dengan kinerja di atasnya",
+          "sumber_regulasi": "Kepmen",
+          "feedback_revisi": "Tambahkan informasi Output dan Sasaran Kegiatan yang memiliki keterkaitan logis dengan kinerja di atasnya"
+        },
+        {
+          "item_code": "II.B",
+          "pertanyaan": "Apakah telah sesuai standar kualitas dokumen perencanaan?",
+          "kriteria_kode": "II.B.1",
+          "kriteria_lolos": "Terdapat penjelesan mengenai Rincian Output dalam aspek 5W + 1H (what, why, who, when, where, how)",
+          "sumber_regulasi": "Draf Kepmen",
+          "feedback_revisi": "Tambahkan penjelasan mengenai Rincian Output dalam aspek 5W + 1H (what, why, who, when, where, how)"
+        }
+      ]
+    },
+    {
+      "section_code": "III",
+      "section_title": "APAKAH RAB SESUAI DENGAN FORMAT? (KELENGKAPAN)",
+      "items": [
+        {
+          "item_code": "III.A",
+          "pertanyaan": "Apakah di dalam RAB terdapat informasi Kementerian/Lembaga?",
+          "kriteria_kode": "III.A.1",
+          "kriteria_lolos": "Terdapat informasi Kementerian/Lembaga dalam hal ini harus tertulis Kementerian Komunikasi dan Digital",
+          "sumber_regulasi": "PMK 41/2026",
+          "feedback_revisi": "Tambahkan informasi Kementerian/Lembaga yaitu Kementerian Komunikasi dan Digital"
+        },
+        {
+          "item_code": "III.B",
+          "pertanyaan": "Apakah di dalam RAB terdapat informasi Unit Eselon II/Satuan Kerja?",
+          "kriteria_kode": "III.B.1",
+          "kriteria_lolos": "Terdapat informasi Unit Eselon II/Satuan Kerja sebagai penanggung jawab Kegiatan yang berada di bawah Kementerian Komunikasi dan Digital",
+          "sumber_regulasi": "PMK 41/2026",
+          "feedback_revisi": "Tambahkan informasi Unit Eselon II/Satuan Kerja sebagai penanggung jawab Kegiatan"
+        },
+        {
+          "item_code": "III.C",
+          "pertanyaan": "Apakah di dalam RAB terdapat informasi Kegiatan?",
+          "kriteria_kode": "III.C.1",
+          "kriteria_lolos": "Terdapat informasi Kegiatan yang merupakan nomenklatur yang menggambarkan aktivitas yang dilakukan oleh Unit Eselon II yang bersangkutan untuk menunjang Program yang telah ditentukan. Kegiatan merupakan bagian dari Program yang terdiri atas sekumpulan tindakan pengerahan sumber daya baik yang berupa personil (sumber daya manusia), barang modal termasuk peralatan dan teknologi, dana, dan/atau kombinasi dari beberapa atau semua jenis sumber daya tersebut sebagai Masukan (input) untuk menghasilkan Keluaran (output) dalam bentuk barang/jasa",
+          "sumber_regulasi": "PMK 41/2026",
+          "feedback_revisi": "Tambahkan informasi Kegiatan yang berupa aktivitas untuk menunjang program yang ditentukan. Kegiatan dapat dilaksanakan oleh beberapa unit eselon II dan/atau Satker dalam satu eselon I yang sama. Sebagai contoh yakni “Pengembangan Jaringan Irigasi Permukaan, Rawa, dan Non-Padi”"
+        },
+        {
+          "item_code": "III.D",
+          "pertanyaan": "Apakah di dalam RAB terdapat informasi Sasaran Kegiatan?",
+          "kriteria_kode": "III.D.1",
+          "kriteria_lolos": "Terdapat informasi Sasaran Kegiatan yang mencerminkan capaian yang terkait dengan sasaran Rencana Kerja Pemerintah (RKP) serta tugas dan fungsi Kementerian Komunikasi dan Digital. Sasaran Kegiatan disusun dengan nomenklatur yang mencerminkan capaian Sasaran Program dari Unit Eselon I. Sasaran Kegiatan umumnya menggunakan pilihan kata seperti “terwujudnya”, “terjaganya”, “meningkatnya”, “terciptanya”, dan sebagainya",
+          "sumber_regulasi": "PMK 41/2026",
+          "feedback_revisi": "Tambahkan informasi Sasaran Kegiatan yang merupakan hasil kinerja kegiatan yang ingin dicapai. Umumnya menggunakan pilihan kata kerja pasif seperti “terwujudnya”, “terjaganya”, “meningkatnya”, “terciptanya”, dan sebagainya. Sebagai contoh yakni \"Meningkatnya layanan jaringan irigasi\""
+        },
+        {
+          "item_code": "III.E",
+          "pertanyaan": "Apakah di dalam RAB terdapat informasi Indikator Kinerja Kegiatan?",
+          "kriteria_kode": "III.E.1",
+          "kriteria_lolos": "Terdapat informasi Indikator Kinerja Kegiatan yang merupakan alat ukur untuk menilai capaian Kinerja Kegiatan dan rumusannya dapat bersifat kualitatif/kuantitatif. Nomenklatur Indikator Kinerja Kegiatan harus mencerminkan capaian Sasaran Kegiatan",
+          "sumber_regulasi": "PMK 41/2026",
+          "feedback_revisi": "Tambahkan informasi Indikator Kinerja Kegiatan untuk mengukur capaian kinerja kegiatan. Indikator Kinerja Kegiatan\n dilaksanakan oleh unit kerja eselon II serta merumuskan dasar ukuran target antara lain: “% (persen), orang, Kilometer (km)”"
+        },
+        {
+          "item_code": "III.F",
+          "pertanyaan": "Apakah di dalam RAB terdapat informasi Klasifikasi Rincian Output?",
+          "kriteria_kode": "III.F.1",
+          "kriteria_lolos": "Terdapat informasi Klasifikasi Rincian Output yang merupakan kumpulan atas Rincian Output yang disusun dengan mengelompokkan atau mengklasifikasikan muatan Keluaran (output) Kegiatan yang sejenis/serumpun berdasarkan sektor/bidang/jenis tertentu secara sistematis",
+          "sumber_regulasi": "PMK 41/2026 dan list pada SEB No. 6/2025 dan 3/MK/AG/2025",
+          "feedback_revisi": "Tambahkan informasi Klasifikasi Rincian Output yang dipilih sesuai dengan dokumen KRO pada SEB No. 6/2025 dan 3/MK/AG/2025"
+        },
+        {
+          "item_code": "III.G",
+          "pertanyaan": "Apakah di dalam RAB terdapat informasi Rincian Output?",
+          "kriteria_kode": "III.G.1",
+          "kriteria_lolos": "Terdapat informasi Rincian Output berupa barang atau jasa riil yang merupakan hasil akhir dari pelaksanaan Kegiatan dalam mendukung pencapaian sasaran pembangunan nasional yang dihasilkan oleh Unit Eselon II Kementerian/Lembaga yang berfokus pada isu tertentu serta berkaitan langsung dengan tugas dan fungsi Unit Eselon II tersebut dalam mendukung pencapaian Sasaran Kegiatan yang telah ditetapkan",
+          "sumber_regulasi": "PMK 41/2026",
+          "feedback_revisi": "Tambahkan informasi Rincian Output yang berupa barang atau jasa riil yang merupakan hasil akhir dari pelaksanaan Kegiatan dalam mendukung pencapaian sasaran pembangunan nasional yang dihasilkan oleh Unit Eselon II yang berfokus pada isu tertentu serta berkaitan langsung dengan tugas dan fungsi Unit Eselon II tersebut dalam mendukung pencapaian Sasaran Kegiatan yang telah ditetapkan"
+        },
+        {
+          "item_code": "III.H",
+          "pertanyaan": "Apakah di dalam RAB terdapat informasi Volume?",
+          "kriteria_kode": "III.H.1",
+          "kriteria_lolos": "Terdapat informasi jumlah/banyaknya kuantitas Rincian Output yang dihasilkan",
+          "sumber_regulasi": "PMK 41/2026",
+          "feedback_revisi": "Tambahkan informasi jumlah/banyaknya kuantitas Rincian Output yang merupakan jumlah/banyaknya kuantitas Rincian Output"
+        },
+        {
+          "item_code": "III.I",
+          "pertanyaan": "Apakah di dalam RAB terdapat informasi Satuan Ukur?",
+          "kriteria_kode": "III.I.1",
+          "kriteria_lolos": "Terdapat informasi mengenai satuan ukur yang digunakan dalam rangka pengukuran kuantitas Rincian Output sesuai dengan karakteristiknya",
+          "sumber_regulasi": "PMK 41/2026",
+          "feedback_revisi": "Tambahkan informasi satuan ukur yang digunakan dalam rangka pengukuran kuantitas Rincian Output sesuai dengan karakteristiknya"
+        },
+        {
+          "item_code": "III.J",
+          "pertanyaan": "Apakah di dalam RAB terdapat informasi Alokasi Dana?",
+          "kriteria_kode": "III.J.1",
+          "kriteria_lolos": "Terdapat informasi total anggaran yang dibutuhkan untuk pencapaian Klasifikasi Rincian Output",
+          "sumber_regulasi": "PMK 41/2026",
+          "feedback_revisi": "Tambahkan informasi Alokasi Dana yang dibutuhkan untuk pencapaian Keluaran"
+        },
+        {
+          "item_code": "III.K",
+          "pertanyaan": "Apakah di dalam RAB terdapat informasi Penanggung Jawab yang disertai dengan Tanda Tangan?",
+          "kriteria_kode": "III.K.1",
+          "kriteria_lolos": "Terdapat informasi nama penanggung jawab Kegiatan yang disertai Tanda Tangan",
+          "sumber_regulasi": "PMK 41/2026",
+          "feedback_revisi": "Tambahkan informasi nama penanggung jawab Kegiatan yang disertai Tanda Tangan"
+        },
+        {
+          "item_code": "III.L",
+          "pertanyaan": "Apakah di dalam RAB terdapat informasi NIP?",
+          "kriteria_kode": "III.L.1",
+          "kriteria_lolos": "Terdapat informasi Nomor Induk Pegawai (NIP) penanggung jawab Kegiatan",
+          "sumber_regulasi": "PMK 41/2026",
+          "feedback_revisi": "Tambahkan informasi Nomor Induk Pegawai (NIP) penanggung jawab Kegiatan"
+        }
+      ]
+    },
+    {
+      "section_code": "IV",
+      "section_title": "APAKAH RAB SUDAH SESUAI DENGAN TOR DAN STANDAR KETENTUAN LAINNYA?",
+      "items": [
+        {
+          "item_code": "IV.A",
+          "pertanyaan": "Apakah RAB sudah menjelaskan kebutuhan anggaran dari TOR?",
+          "kriteria_kode": "IV.A.1",
+          "kriteria_lolos": "Terdapat keterkaitan yang jelas dengan kegiatan, output, atau kebutuhan yang tercantum dalam TOR dengan setiap komponen biaya dalam RAB.\n \n Contoh keterkaitan yang jelas:\n -> Disebutkan dalam TOR akan dilaksanakan ke 10 kota, di RAB juga dirincikan biaya perjalanan dinas dan fasilitasi di 10 kota\n -> Dijelaskan dalam TOR bahwa diperlukan expertise dari 2 perusahaan ternama sebagai narasumber, di RAB juga dirincikan biaya honorarium untuk personil di setiap perusahaan tersebut.",
+          "sumber_regulasi": null,
+          "feedback_revisi": "Tambahkan informasi yang dapat menjelaskan keterkaitan RAB dengan TOR. Jika memungkinkan, narasi yang ada di RAB dapat disamakan dengan narasi yang ada di dalam TOR"
+        },
+        {
+          "item_code": "IV.B",
+          "pertanyaan": "Apakah penulisan kodefikasi dan klasifikasi belanja sudah memenuhi ketentuan Bagan Akun Standar (BAS)?",
+          "kriteria_kode": "IV.B.1",
+          "kriteria_lolos": "Terdapat kesesuaian kodefikasi komponen belanja yang seluruhnya telah sesuai dengan Bagan Akun Standar (BAS)",
+          "sumber_regulasi": "Kedirjen Perbendaharaan\n No: KEP- 331 /PB/2021",
+          "feedback_revisi": "Sesuaikan informasi Bagan Akun Standar berdasarkan Kepdirjen Perbendaharaan No: KEP-331/PB/2021 tentang Kodefikasi Segmen Akun pada Bagan Akun Standar"
+        },
+        {
+          "item_code": "IV.C",
+          "pertanyaan": "Apakah harga satuan tidak melebihi ketentuan di Standar Biaya Masukan (SBM) pada tahun berjalan?",
+          "kriteria_kode": "IV.C.1",
+          "kriteria_lolos": "Informasi harga satuan biaya yang dicantumkan tidak melebihi Standar Biaya Masukan (SBM) berdasarkan Regulasi Tahun Anggaran (2026 masih menggunakan PMK, per 2027 menggunakan Kepmen Keu)",
+          "sumber_regulasi": "2026: PMK 32/2025\n \n 2027: PMK 54/2026 dan Kepmenkeu 296/2026",
+          "feedback_revisi": "Sesuaikan nominal pada biaya sesuai dengan Standar Biaya Masukan yang tercantum pada regulasi tahunan"
+        },
+        {
+          "item_code": "IV.D",
+          "pertanyaan": "Apakah komponen biaya pendukug telah mematuhi batas maksimal 30% dari total seluruh biaya pada RAB?",
+          "kriteria_kode": "IV.D.1",
+          "kriteria_lolos": "Biaya komponen pendukung sesuai list dibawah ini secara total proporsi kurang dari atau sama dengan 30%\n \n Yang termasuk komponen pendukung:\n a) honorarium kegiatan;\n b) biaya konsumsi rapat dalam kantor;\n c) biaya kegiatan seremonial; \n d) biaya percetakan;\n e) pengadaan souvenir; dan\n f) pengadaan ATK untuk kegiatan.\n g) komponen yang substansinya tidak berpengaruh secara langsung terhadap Keluaran.",
+          "sumber_regulasi": "Draf Kepmen",
+          "feedback_revisi": "Sesuaikan komponen pendukung menjadi kurang dari atau sama dengan 30%"
+        }
+      ]
+    }
+  ],
+  "screening_dua_kategorisasi_ro": [
+    {
+      "no": 1,
+      "pertanyaan_kriteria": "Apakah RO merupakan Prioritas Nasional/PKPN",
+      "catatan_kriteria": null,
+      "kategori_target": "Kategori 1"
+    },
+    {
+      "no": 2,
+      "pertanyaan_kriteria": "Apakah RO merupakan belanja operasional yang bersifat wajib dan rutin",
+      "catatan_kriteria": "Contoh: Gaji, Tunjangan, Langganan Listrik, dan Internet Kantor",
+      "kategori_target": "Kategori 1"
+    },
+    {
+      "no": 3,
+      "pertanyaan_kriteria": "Apakah RO merupakan penyelenggaraan dan operasional layanan publik esensial?",
+      "catatan_kriteria": "Program yang mendukung keberlangsungan layanan publik yang bersifat esensial dan wajib tersedia secara berkelanjutan, dimana gangguan atau penghentian layanan berpotensi menimbulkan dampak signifikan terhadap masyarakat, pemerintah, atau penyelenggaraan tugas kementerian.",
+      "kategori_target": "Kategori 1"
+    },
+    {
+      "no": 4,
+      "pertanyaan_kriteria": "Apakah RO merupakan kewajiban operational maintenance (OM) atau penyelenggaraan layanan internal esensial?",
+      "catatan_kriteria": "RO diperlukan untuk menjaga keberlangsungan pelaksanaan tugas dan fungsi kementerian, seperti yang berkaitan dengan Pengelolaan aset strategis, yaitu aset yang keberadaannya vital bagi keberlangsungan operasional kementerian secara nasional, dengan contoh antara lain Pusat Data Nasional (PDN); atau layanan yang memenuhi seluruh kriteria berikut:\na) penghentian atau gangguan terhadap layanan tersebut mengakibatkan terhentinya pelaksanaan tugas dan fungsi inti kementerian; \nb) tidak tersedia proses/mekanisme alternatif (manual atau lainnya) yang dapat menggantikan fungsi layanan tersebut; \nc) digunakan secara lintas unit kerja atau oleh kementerian secara keseluruhan, bukan hanya oleh satu satuan kerja; dan \nd) keberadaannya diwajibkan oleh peraturan perundang-undangan dan/atau kebijakan resmi kementerian",
+      "kategori_target": "Kategori 2"
+    },
+    {
+      "no": 5,
+      "pertanyaan_kriteria": "Apakah RO berkaitan dengan penyelenggaraan pengelolaan PNBP dan/atau peningkatan kualitas penyelenggaraan pengelolaan PNBP?",
+      "catatan_kriteria": null,
+      "kategori_target": "Kategori 2"
+    },
+    {
+      "no": 6,
+      "pertanyaan_kriteria": "Apakah RO merupakan Kontrak Tahun Jamak (Multiyears) yang sudah berjalan dan disetujui tidak dapat digeser/di-refocusing karena terikat konsekuensi wanprestasi?",
+      "catatan_kriteria": null,
+      "kategori_target": "Kategori 2"
+    },
+    {
+      "no": 7,
+      "pertanyaan_kriteria": "Apakah RO merupakan Layanan Dukungan Manajemen?",
+      "catatan_kriteria": null,
+      "kategori_target": "Kategori 2"
+    },
+    {
+      "no": 8,
+      "pertanyaan_kriteria": "Apakah RO merupakan implementasi amanat Inpres/Perpres pada periode pemerintahan yang berlaku?",
+      "catatan_kriteria": "Terdapat informasi rincian output merupakan impemlementasi inpres/perpres berapa",
+      "kategori_target": "Kategori 2"
+    },
+    {
+      "no": 9,
+      "pertanyaan_kriteria": "Apakah RO merupakan implementasi direktif menteri yang ditetapkan melalui dokumen resmi/nota dinas?",
+      "catatan_kriteria": "Terdapat informasi detail dokumen resmi atau nota dinas yang merupakan arahan langsung dari menteri",
+      "kategori_target": "Kategori 2"
+    },
+    {
+      "no": 10,
+      "pertanyaan_kriteria": "Apakah RO merupakan program pendukung program Prioritas Presiden?",
+      "catatan_kriteria": "RO yang bila tidak dilaksanakan, akan berpengaruh terhadap program prioritas presiden dan program prioritas pemerintah",
+      "kategori_target": "Kategori 2"
+    },
+    {
+      "no": 11,
+      "pertanyaan_kriteria": "Apakah RO merupakan progarm prioritas kementerian?",
+      "catatan_kriteria": null,
+      "kategori_target": "Kategori 3"
+    },
+    {
+      "no": 12,
+      "pertanyaan_kriteria": "Apakah RO tidak memiliki keterkaitan langsung dengan prioritas nasional, tugas esensial kementerian, maupun pencapaian target kinerja strategis",
+      "catatan_kriteria": "a) Pengembangan sistem/aplikasi yang tidak mendukung pencapaian indikator kinerja satuan kerja\nb) Seremonial yang tidak terkait langsung dengan pencapaian program, kegiatan benchmarking, studi banding, atau kunjungan kerja yang tidak didukung kebutuhan yang jelas dan output yang terukur\nc) Penyusunan kajian atau publikasi yang tidak digunakan sebagai dasar pengambilan kebijakan, regulasi, atau pelaksanaan program.\nd) Kegiatan sosialisasi, seminar, workshop, atau forum diskusi yang tidak memiliki keterkaitan langsung dengan pencapaian program.",
+      "kategori_target": "Kategori 4"
+    }
+  ]
+}
