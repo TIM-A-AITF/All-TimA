@@ -1,0 +1,58 @@
+[
+ {
+  "prompt": "Buatkan 3 poin Latar Belakang singkat untuk TOR kegiatan pelatihan literasi digital aparatur.",
+  "text": "Tentu, berikut adalah 3 poin latar belakang singkat yang dapat digunakan dalam dokumen TOR (Tujuan dan Objek Rencana) kegiatan pelatihan literasi digital aparatur:\n\n1. Dalam era digitalisasi, kemampuan aparatur pemerintah dalam mengelola teknologi informasi menjadi kunci utama dalam meningkatkan efisiensi, transparansi, dan kualitas layanan publik.\n\n2. Banyak aparatur masih terbatas dalam penggunaan perangkat lunak, akses data, serta pemahaman dasar tentang keamanan siber dan etika digital, sehingga memerlukan pendekatan pelatihan yang komprehensif dan relevan.\n\n3. Peningkatan literasi digital di kalangan aparatur merupakan langkah strategis dalam mendukung transformasi digital pemerintahan dan menjadikan tenaga kerja p",
+  "selesai_rapi": false,
+  "rasio_ulang": 0.015,
+  "panjang": 200
+ },
+ {
+  "prompt": "Jelaskan dalam 2 kalimat apa itu RAB dalam pengadaan pemerintah.",
+  "text": "RAB (Rencana Anggaran Bangunan) adalah dokumen yang menyajikan perhitungan biaya pembangunan suatu proyek secara rinci, termasuk harga material, tenaga kerja, dan biaya lainnya. Dalam pengadaan pemerintah, RAB digunakan sebagai dasar penilaian kebutuhan anggaran dan untuk menjamin bahwa proyek dapat dijalankan sesuai dengan anggaran yang tersedia.",
+  "selesai_rapi": true,
+  "rasio_ulang": 0.02,
+  "panjang": 102
+ },
+ {
+  "prompt": "Sebutkan 3 contoh dasar hukum yang lazim dikutip dalam TOR Kementerian Komunikasi dan Digital.",
+  "text": "Berikut adalah **3 contoh dasar hukum yang lazim dikutip dalam Tender of Request (TOR)** Kementerian Komunikasi dan Teknologi Informasi (Kominfo), terutama dalam konteks pengadaan barang, jasa, atau layanan yang berkaitan dengan komunikasi dan digital:\n\n1. **Undang-Undang Nomor 2 Tahun 2009 tentang Pengelolaan Pemerintahan Secara Elektronik (UU PPE)**  \n   → Dasar hukum ini mendukung pelaksanaan pengadaan secara elektronik, transparansi, akuntabilitas, serta efisiensi dalam pelayanan publik oleh instansi pemerintah, termasuk Kominfo.\n\n2. **Peraturan Pemerintah Nomor 54 Tahun 2023 tentang Penyelenggaraan Pengadaan Barang",
+  "selesai_rapi": false,
+  "rasio_ulang": 0.056,
+  "panjang": 200
+ },
+ {
+  "prompt": "Ringkas kalimat berikut menjadi satu frasa: \"Kegiatan ini bertujuan meningkatkan kapasitas aparatur dalam transformasi digital nasional.\"",
+  "text": "Meningkatkan kapasitas aparatur untuk transformasi digital.",
+  "selesai_rapi": true,
+  "rasio_ulang": 0.0,
+  "panjang": 15
+ },
+ {
+  "prompt": "Terjemahkan ke bahasa Inggris: 'Kegiatan ini bertujuan meningkatkan kapasitas aparatur.'",
+  "text": "This activity aims to enhance the capacity of government personnel.",
+  "selesai_rapi": true,
+  "rasio_ulang": 0.0,
+  "panjang": 12
+ },
+ {
+  "prompt": "Apa ibu kota Provinsi Jawa Tengah? Jawab satu kata.",
+  "text": "Semarang",
+  "selesai_rapi": true,
+  "rasio_ulang": 0.0,
+  "panjang": 4
+ },
+ {
+  "prompt": "Tuliskan balasan e-mail sopan untuk menolak undangan rapat karena bentrok jadwal.",
+  "text": "Tentu, berikut adalah contoh balasan email yang sopan dan profesional untuk menolak undangan rapat karena bentrok jadwal:\n\n---\n\n**Subject:** Terima Kasih atas Undangan Rapat – Maaf Tidak Bisa Ikut\n\nHalo [Nama Pengirim],\n\nTerima kasih banyak atas undangan Anda dalam rapat [nama atau topik rapat]. Saya sangat menghargai kesempatan untuk berpartisipasi dan menyadari pentingnya pertemuan ini.\n\nSayangnya, saya harus membatalkan kehadiran saya pada hari [tanggal] karena ada bentrok jadwal dengan komitmen lain yang sudah dijadwalkan secara tetap. Saya telah mencoba untuk menyesuaikan agar bisa hadir, namun saat ini tidak mungkin mengubah jadwal tersebut.\n\nSaya sangat menghargai usaha tim dalam merencanakan rapat ini, dan",
+  "selesai_rapi": false,
+  "rasio_ulang": 0.04,
+  "panjang": 200
+ },
+ {
+  "prompt": "Format jawaban sebagai daftar bernomor 1-3: tiga manfaat transformasi digital bagi pelayanan publik.",
+  "text": "1. Meningkatkan aksesibilitas layanan bagi masyarakat melalui platform digital, seperti aplikasi atau website resmi, sehingga warga dapat mengakses layanan tanpa harus datang langsung ke kantor.\n\n2. Mempercepat proses pelayanan dengan otomatisasi dan sistem e-formulir, yang mengurangi waktu tunggu dan meminimalkan kesalahan manusia.\n\n3. Membangun transparansi dan akuntabilitas dalam penyelenggaraan layanan publik melalui pelaporan data secara real-time dan pengawasan publik yang lebih mudah.",
+  "selesai_rapi": true,
+  "rasio_ulang": 0.007,
+  "panjang": 138
+ }
+]
