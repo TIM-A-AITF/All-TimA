@@ -1,59 +1,73 @@
-## **Alur Sistem Pemeriksaan TOR dan RAB**
+# TIMA — Pemeriksaan TOR & RAB
 
-Sistem bekerja menggunakan Google Colab dengan alur ekstraksi dokumen, pemrosesan data, pemeriksaan checklist, hingga menghasilkan laporan otomatis.
+Upload 1 TOR + 1..n RAB (PDF) → klasifikasi → ekstraksi → checklist → pasangan TOR–RAB → laporan + ZIP.
 
-**1. Input Dokumen**
+```
+all-tima/
+├── app/
+│   ├── config.py        # semua path & endpoint dari env (tanpa path lokal)
+│   ├── pipeline.py      # orkestrator run (juga CLI)
+│   ├── report.py        # checklist_tor/rab.json+md, llm_tor.json, hasil_gabungan.json, ringkasan.html, ZIP
+│   ├── vlm_client.py    # klien VLM jarak jauh (placeholder endpoint Qwen3-VL-2B)
+│   └── api.py           # FastAPI
+├── Checklist-Rule-TOR-RAB/
+│   ├── checklist_common.py   # rules loader, chunk evidence, validator, laporan per dokumen
+│   ├── checklist_tor.py      # Section I (I.A–I.T); I.M–I.R → endpoint SFT (placeholder)
+│   ├── checklist_rab.py      # Section III + IV.B/IV.C/IV.D
+│   ├── rules/  katalog_sbm/  wilayah_indonesia.csv
+├── Ekstraktor-TOR-RAB/       # tor_extractor.py, ExtractorRAB.py (tidak diubah)
+├── Dockerfile  docker-compose.yml  docker-entrypoint.sh  requirements.txt  .env.example
+```
 
-Upload file PDF TOR dan satu atau lebih PDF RAB secara bersamaan.
+`Model-Checklist-Engine/` (adapter LoRA) **tidak** ikut ke image — dipakai di VPS model.
 
-**2. Identifikasi Dokumen**
+## Menjalankan di VPS
 
-Sistem mengenali jenis dokumen berdasarkan nama file dan judul halaman pertama.
+```bash
+cp .env.example .env          # isi VLM_ENDPOINT_URL dan SFT_ENDPOINT_URL bila VPS model sudah siap
+docker compose up -d --build
+curl http://localhost:8000/health
+```
 
-Jalur TOR
+```bash
+# upload (field "files" boleh berulang)
+curl -F "files=@TOR.pdf" -F "files=@RAB1.pdf" -F "files=@RAB2.pdf" http://localhost:8000/runs
+# -> {"run_id": "...", "status_url": "/runs/<id>", "zip_url": "/runs/<id>/zip"}
+curl http://localhost:8000/runs/<id>                 # status: menunggu | berjalan | selesai | gagal
+curl -o hasil.zip http://localhost:8000/runs/<id>/zip
+```
 
-**3A. Ekstraksi TOR**
+Hasil tersimpan di `./data/workspace/runs/<run_id>/` (volume).
 
-- Ekstraksi teks dan tabel PDF.
-- OCR untuk dokumen scan.
-- Deteksi gambar dan tanda tangan.
-- Deskripsi gambar menggunakan Qwen3-VL-2B.
-- Menghasilkan JSON detail.
+## Menjalankan lokal (tanpa Docker)
 
-  **4A. Checklist TOR**
+```bash
+pip install -r requirements.txt          # + Tesseract (ind, eng) terpasang di sistem
+python -m app.pipeline TOR.pdf RAB1.pdf RAB2.pdf
+uvicorn app.api:app --reload             # atau API
+```
+Di Windows, bila Tesseract tidak ada di PATH: `set TESSERACT_CMD=C:\Program Files\Tesseract-OCR\tesseract.exe`.
 
-Pemeriksaan 25 kriteria menggunakan aturan dan model Qwen3-4B-Instruct-2507 + LoRA.
+Modul checklist tetap bisa dipakai sendiri:
+```bash
+cd Checklist-Rule-TOR-RAB
+python checklist_tor.py <folder checklist_rule_based> -o hasil_cek
+python checklist_rab.py <folder JSON RAB> -o hasil_cek --konsistensi
+```
 
-Jalur RAB
+## Kontrak endpoint model (placeholder — sesuaikan dengan API di VPS model)
 
-**3B. Ekstraksi RAB**
+**VLM** (`VLM_API_STYLE=openai`, mis. vLLM `--model Qwen/Qwen3-VL-2B-Instruct`): POST chat completion berisi
+`image_url` `data:image/png;base64,...` + prompt `DESC_PROMPT` ekstraktor. Jawaban harus berformat
+`JENIS: … / TEKS: … / DESKRIPSI: …`. Gaya `custom`: body `{"model","prompt","image_b64","max_new_tokens"}`, respons `{"text"}`.
+Bila endpoint tidak bisa dihubungi, gambar sisanya langsung dilewati (tidak menunggu timeout satu per satu).
 
-Menggunakan ExtractorRAB untuk mengambil struktur, metadata, dan rincian anggaran.
+**SFT** (Qwen3-4B-Instruct-2507 + LoRA): POST `SFT_ENDPOINT_URL` body
+`{"task","model","jenis_dokumen","nama_file","kriteria_kode","pertanyaan","konteks":{kode_field: isi},"candidates":[{"chunk_id","quote"}],"output_schema"}`,
+respons `{"status":"LOLOS|TIDAK|MANUAL","alasan","evidence_quote","evidence_chunk_id"}`.
+`evidence_quote` harus identik dengan salah satu `candidates[].quote`; bila tidak, status diturunkan ke MANUAL.
+Tanpa endpoint, I.M–I.R berstatus MANUAL.
 
-**4B. Checklist RAB**
+## Variabel environment
 
-Pemeriksaan menggunakan rule engine:
-
-- III.A–III.L
-- IV.B: BAS
-- IV.C: SBM
-- IV.D: Batas 30%
-
-**5. Pengolahan Hasil Pemeriksaan**
-
-Hasil checklist TOR dan RAB disusun menjadi status pemeriksaan, alasan, dan evidence sesuai hasil masing-masing engine.
-
-**6. Output dan Laporan**
-
-- `checklist_tor.json` dan `.md`
-- `checklist_rab.json` dan `.md`
-- `llm_tor.json` untuk Tim B
-- `hasil_gabungan.json`
-- `ringkasan.html`
-- Seluruh hasil dikemas dalam satu file ZIP.
-
-### **Ringkasan alur**
-
-**Upload PDF → Identifikasi TOR/RAB → Ekstraksi masing-masing dokumen → Checklist Engine → Penggabungan hasil → Laporan dan ZIP.**
-
-Catatan: Pemeriksaan kesesuaian RAB terhadap TOR (IV.A) belum dilakukan oleh sistem ini.
+Lihat `.env.example`. Path bawaan relatif terhadap root repo, jadi tidak perlu diisi di Docker.

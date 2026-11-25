@@ -1,0 +1,12 @@
+Model-Checklist-Engine/
+**/*.safetensors
+data/
+workspace/
+**/__pycache__/
+**/*.pyc
+.git/
+.env
+**/hasil_cek/
+**/input/
+**/output_json/
+**/samples/

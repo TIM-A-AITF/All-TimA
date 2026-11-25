@@ -1,0 +1,22 @@
+# Ekstraksi
+pdfplumber>=0.11
+pypdfium2>=4.30
+pillow>=10.0
+numpy>=1.26
+opencv-python-headless>=4.9
+pytesseract>=0.3.10
+pandas>=2.1
+tabulate>=0.9
+lxml>=5.0
+openpyxl>=3.1            # ExtractorRAB: input .xlsx
+
+# Checklist RAB
+id-location-ner==0.1.2   # deteksi provinsi (gazetteer wilayah_indonesia.csv); opsional, ada fallback
+thefuzz>=0.22            # opsional, fallback ke difflib
+
+# API
+fastapi>=0.110
+uvicorn[standard]>=0.29
+python-multipart>=0.0.9
+
+# TIDAK dipasang: torch/transformers — VLM & model SFT berjalan di VPS terpisah (lewat endpoint HTTP)

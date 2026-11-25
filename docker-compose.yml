@@ -1,0 +1,10 @@
+services:
+  checklist:
+    build: .
+    image: tima-checklist:latest
+    env_file: .env
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./data:/data            # hasil run + cache katalog SBM (persisten)
+    restart: unless-stopped
