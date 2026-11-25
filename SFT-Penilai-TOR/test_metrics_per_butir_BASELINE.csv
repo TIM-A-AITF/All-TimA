@@ -1,0 +1,12 @@
+butir,n,tidak_logis_gold,akurasi,balanced_acc,precision_TIDAK,recall_TIDAK,F1_TIDAK
+Dasar Hukum,56,27,0.5178571428571429,0.5,,0.0,
+Gambaran Umum,56,27,0.5178571428571429,0.5,,0.0,
+Latar Belakang,56,36,0.35714285714285715,0.5,,0.0,
+Metode Pelaksanaan,88,28,0.6818181818181818,0.5,,0.0,
+Tahapan dan Waktu Pelaksanaan,88,28,0.6818181818181818,0.5,,0.0,
+Strategi Pencapaian Keluaran,88,47,0.4659090909090909,0.5,,0.0,
+Penerima Manfaat,196,54,0.7244897959183674,0.5,,0.0,
+Kurun Waktu Pencapaian Keluaran,164,53,0.676829268292683,0.5,,0.0,
+Biaya yang Diperlukan,216,53,0.7546296296296297,0.5,,0.0,
+Manajemen Risiko,208,53,0.7451923076923077,0.5,,0.0,
+SEMUA,1216,406,0.6661184210526315,0.5,,0.0,
